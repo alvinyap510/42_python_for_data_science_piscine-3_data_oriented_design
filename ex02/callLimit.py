@@ -24,7 +24,6 @@ def callLimit(limit: int):
         '''
         This function be the actual decorator itself.
         '''
-        pass
 
         def limit_function(*args: any, **kwargs: any):
             '''
